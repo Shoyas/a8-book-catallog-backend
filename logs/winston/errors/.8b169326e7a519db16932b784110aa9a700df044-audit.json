@@ -1,0 +1,155 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\.8b169326e7a519db16932b784110aa9a700df044-audit.json",
+    "files": [
+        {
+            "date": 1693807618847,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-12-error.log",
+            "hash": "79ebd082639c31b6334dd79111638fc618946b8fc5049a9bd59d3aa55389a5f5"
+        },
+        {
+            "date": 1693811344295,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-13-error.log",
+            "hash": "fd663187cd182c8dd977f9fb3e281cf2897f17582a25e97079ab31363ea55d9b"
+        },
+        {
+            "date": 1693814773269,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-14-error.log",
+            "hash": "7d3010bd888ad6df3116f5e4e1ee6489488d9987a05ae364f94ae90d379796fd"
+        },
+        {
+            "date": 1693823492899,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-16-error.log",
+            "hash": "2a9b64eeba18a20724fa5573ef255871ee01fe34a87d6d60422531b3a1392692"
+        },
+        {
+            "date": 1693825223607,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-17-error.log",
+            "hash": "655dde3672f24a800941241a6ca2a35ac991a91cfdcaab309d665db035e63ff6"
+        },
+        {
+            "date": 1693839934217,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-04-09-21-error.log",
+            "hash": "d829f5fd86b721fd0b76888570f46f95b6a02dbcf23452651a263b9c4afecc38"
+        },
+        {
+            "date": 1693881468673,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-08-error.log",
+            "hash": "13ec8c5a58c4a78135035c2c4c478cc24ef9f34e84045e6f3b6ba5adbd9e905f"
+        },
+        {
+            "date": 1693891200859,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-11-error.log",
+            "hash": "dffc0a422466f8ffe173fe3fd099029274252336b5c84dafd1ad5b355fb07ad8"
+        },
+        {
+            "date": 1693912955085,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-17-error.log",
+            "hash": "4198de812c9b462423fa4eb771d29e30b07f9986e2dbb8407667a5f962699a01"
+        },
+        {
+            "date": 1693915488589,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-18-error.log",
+            "hash": "3ece3472c28b45035eebf06da5fdcbf0b9a82b26501daf88cbe3bdf6ed6cd248"
+        },
+        {
+            "date": 1693931461329,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-22-error.log",
+            "hash": "5d4fadef987fe64fdb78916a860d0a0ce155cfb3c8b7adbd9047b834c46d1028"
+        },
+        {
+            "date": 1693934254082,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-05-09-23-error.log",
+            "hash": "182b4703970e6d5715d2c37ecc37ae8296c8e0fcfa2c47514fd108688a16e055"
+        },
+        {
+            "date": 1693936844874,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-00-error.log",
+            "hash": "5140ccc0f315a3397e71fd5e3936c58ab427846ca3c08f0ee307d614abc2bec1"
+        },
+        {
+            "date": 1693973490919,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-10-error.log",
+            "hash": "74b05ef713c8edee5e8283c195300a6c23ededa9da6c33f2dbab73f50132c596"
+        },
+        {
+            "date": 1693998784283,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-17-error.log",
+            "hash": "2c571698260fb01fb3ad42b6bb7ad899352e745e21eb38b92ed02b18328c64c0"
+        },
+        {
+            "date": 1694001606162,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-18-error.log",
+            "hash": "938ed430293da5e0ee3a4e13ece88ec9c45dc5f26f6e5aaa7d3113176f66b523"
+        },
+        {
+            "date": 1694005681246,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-19-error.log",
+            "hash": "78427c7bc0bd41faf2805976879a0caab95de25eb5bc91a4445faa52d4c5d248"
+        },
+        {
+            "date": 1694010970356,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-06-09-20-error.log",
+            "hash": "8aca6b6069472672a125dc79cfd966c0f50943445da22a4a81beecc0a6484cf9"
+        },
+        {
+            "date": 1694061542795,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-10-error.log",
+            "hash": "6fb0c684a605bc4987a9cb24b03aea835fa115b58c75dbf273e9323ce3b97fda"
+        },
+        {
+            "date": 1694062910121,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-11-error.log",
+            "hash": "085c4a9ccc5ab7a61e79854a3f56c36dfc6fa45b9c89933a4b01fdf9b8256ac6"
+        },
+        {
+            "date": 1694069629421,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-12-error.log",
+            "hash": "a3813dc01b99c086a47ffa212d5b392109139dc8a67564ce0cfadca436024323"
+        },
+        {
+            "date": 1694070006660,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-13-error.log",
+            "hash": "efdcd488865b18df1bc8ea10b8f83fbdf8a215470bd0014761563a9e11fe9add"
+        },
+        {
+            "date": 1694073621848,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-14-error.log",
+            "hash": "a82cfdf6f76c8247624746b98c85a07aa01c8b326f1afbfd3121fdb03ee22f58"
+        },
+        {
+            "date": 1694080305157,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-15-error.log",
+            "hash": "b659097db4b302f03ae58578b93af8b9c21214928de1bde684c8b46a75e7c82e"
+        },
+        {
+            "date": 1694080959501,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-16-error.log",
+            "hash": "cae4f11fd5d25b4144f625b073b2344302b82c5ae4b0493e6c7865d357539f09"
+        },
+        {
+            "date": 1694084446956,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-17-error.log",
+            "hash": "30802c3595afa84f800880d3541c46d34695947268995a1bd3e257fa6beeb1c7"
+        },
+        {
+            "date": 1694089366952,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-18-error.log",
+            "hash": "5a2de791a0215ad26adf61228440f5709ad7a970c9fbaa5a813934362845fa2b"
+        },
+        {
+            "date": 1694093124020,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-19-error.log",
+            "hash": "e274bca71a492efd879d203accc0a6933a3a054a7a79b6ffd18136de6e34b26b"
+        },
+        {
+            "date": 1694095313888,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-20-error.log",
+            "hash": "178b2874b3adc360cf68cfdd0fb107487451abc33501dbcf761af88e1fcc8293"
+        }
+    ],
+    "hashType": "sha256"
+}
