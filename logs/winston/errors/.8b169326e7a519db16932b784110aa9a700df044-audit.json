@@ -149,6 +149,11 @@
             "date": 1694095313888,
             "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-20-error.log",
             "hash": "178b2874b3adc360cf68cfdd0fb107487451abc33501dbcf761af88e1fcc8293"
+        },
+        {
+            "date": 1694101021839,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-07-09-21-error.log",
+            "hash": "e9e78b5a191129ddee9ae3585c40747caa4f38c1a8c78e6f8326aba6e88259ae"
         }
     ],
     "hashType": "sha256"

@@ -6,7 +6,6 @@
 
 ### Features:
 
--
 - Error Handling.
 
 - CRUD Operations on Users, Books and Orders.
@@ -29,7 +28,7 @@
 - Git
 - Supabase
 
-##Live Link:
+## Live Link:
 
 **Application Routes:**
 
