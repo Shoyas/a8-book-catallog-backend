@@ -38,18 +38,18 @@
 
 - https://a8-book-catallog-backend.vercel.app/api/v1/auth/signup (POST)
 - https://a8-book-catallog-backend.vercel.app/api/v1/users (GET)
-- https://a8-book-catallog-backend.vercel.app/api/v1/users/f9bf7739-57d4-497c-a33e-5c300ca6142c (Single GET) Include an id that is saved in your database
+- https://a8-book-catallog-backend.vercel.app/api/v1/users/f9bf7739-57d4-497c-a33e-5c300ca6142c (Single GET) Include an id that is saved in database
 - https://a8-book-catallog-backend.vercel.app/api/v1/users/f9bf7739-57d4-497c-a33e-5c300ca6142c (PATCH)
-- https://a8-book-catallog-backend.vercel.app/api/v1/users/f9bf7739-57d4-497c-a33e-5c300ca6142c (DELETE) Include an id that is saved in your database
+- https://a8-book-catallog-backend.vercel.app/api/v1/users/f9bf7739-57d4-497c-a33e-5c300ca6142c (DELETE) Include an id that is saved in database
 - https://a8-book-catallog-backend.vercel.app/api/v1/profile (GET)
 
 **Category**
 
 - https://a8-book-catallog-backend.vercel.app/api/v1/categories/create-category (POST)
 - https://a8-book-catallog-backend.vercel.app/api/v1/categories (GET)
-- https://a8-book-catallog-backend.vercel.app/api/v1/categories/e5809663-fe68-49da-aa91-4da08b61c191 (Single GET) Include an id that is saved in your database
+- https://a8-book-catallog-backend.vercel.app/api/v1/categories/e5809663-fe68-49da-aa91-4da08b61c191 (Single GET) Include an id that is saved in database
 - https://a8-book-catallog-backend.vercel.app/api/v1/categories/e5809663-fe68-49da-aa91-4da08b61c191 (PATCH)
-- https://a8-book-catallog-backend.vercel.app/api/v1/categories/e5809663-fe68-49da-aa91-4da08b61c191 (DELETE) Include an id that is saved in your database
+- https://a8-book-catallog-backend.vercel.app/api/v1/categories/e5809663-fe68-49da-aa91-4da08b61c191 (DELETE) Include an id that is saved in database
 
 **Books**
 
