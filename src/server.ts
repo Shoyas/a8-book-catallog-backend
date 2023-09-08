@@ -1,8 +1,7 @@
-import { PrismaClient } from '@prisma/client';
 import express from 'express';
 import config from './config';
+import prisma from './shared/prisma';
 
-const prisma = new PrismaClient();
 const app = express();
 
 async function main() {
