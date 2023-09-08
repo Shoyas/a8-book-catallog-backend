@@ -12,22 +12,56 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
+const app_1 = __importDefault(require("./app"));
 const config_1 = __importDefault(require("./config"));
-const prisma_1 = __importDefault(require("./shared/prisma"));
-const app = (0, express_1.default)();
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        try {
-            yield prisma_1.default.$connect();
-            console.log('Database is connected successfully....');
-            app.listen(config_1.default.port, () => {
-                console.log(`App is listening on port ${config_1.default.port}`);
-            });
-        }
-        catch (error) {
-            console.error('Failed to connect to the database....', error);
-        }
+        const server = app_1.default.listen(config_1.default.port, () => 
+        // logger.info(`Server running on port ${config.port}`);
+        console.log(`Server running on port ${config_1.default.port}`));
+        const exitHandler = () => {
+            if (server) {
+                server.close(() => 
+                // logger.info('Server closed');
+                console.log('Server closed'));
+            }
+            process.exit(1);
+        };
+        const unexpectedErrorHandler = () => {
+            // errorlogger.error(error);
+            exitHandler();
+        };
+        process.on('uncaughtException', unexpectedErrorHandler);
+        process.on('unhandledRejection', unexpectedErrorHandler);
+        process.on('SIGTERM', () => {
+            'SIGTERM received';
+            if (server) {
+                server.close();
+            }
+        });
     });
 }
 main();
+/*
+import { PrismaClient } from '@prisma/client';
+import express from 'express';
+import config from './config';
+
+const prisma = new PrismaClient();
+const app = express();
+
+async function main() {
+  try {
+    await prisma.$connect();
+    console.log('Database is connected successfully....');
+
+    app.listen(config.port, () => {
+      console.log(`App listening on port ${config.port}`);
+    });
+  } catch (error) {
+    console.error('Failed to connect to the database....', error);
+  }
+}
+
+main();
+*/
