@@ -6,9 +6,9 @@
     "auditLog": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\.8b169326e7a519db16932b784110aa9a700df044-audit.json",
     "files": [
         {
-            "date": 1694147603321,
-            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-08-09-10-error.log",
-            "hash": "e54cfd4ce2b60a2bc88bec9ca7a5e36421ba535a529dd09c4472f07d86ad9624"
+            "date": 1694150913909,
+            "name": "F:\\PHero Level-2\\Assignment-8\\a8-book-catallog-backend\\logs\\winston\\errors\\phu-2023-08-09-11-error.log",
+            "hash": "a8ac9cb09278038656526969c2a3409fa4beeb33f69f9db512de3e5b32dfdc8e"
         }
     ],
     "hashType": "sha256"
