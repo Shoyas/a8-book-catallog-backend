@@ -1,9 +1,10 @@
 import { PrismaClient } from '@prisma/client';
-import config from '../config';
 
 const prisma = new PrismaClient({
   errorFormat: 'minimal',
-  datasources: { db: { url: config.database_url } },
+  datasources: { db: { url: process.env.DATABASE_URL } },
 });
 
 export default prisma;
+
+// const prisma = new PrismaClient({ datasources: {  db: { url: "mysql://yourdburlstringhere" } } });
