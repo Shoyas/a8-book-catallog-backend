@@ -6,4 +6,3 @@ const prisma = new client_1.PrismaClient({
     datasources: { db: { url: process.env.DATABASE_URL } },
 });
 exports.default = prisma;
-// const prisma = new PrismaClient({ datasources: {  db: { url: "mysql://yourdburlstringhere" } } });
