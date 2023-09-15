@@ -7,5 +7,3 @@ const prisma = new PrismaClient({
 });
 
 export default prisma;
-
-// const prisma = new PrismaClient({ datasources: {  db: { url: "mysql://yourdburlstringhere" } } });
