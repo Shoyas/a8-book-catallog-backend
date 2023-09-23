@@ -41,18 +41,20 @@ const createUser = (0, catchAsync_1.default)((req, res) => __awaiter(void 0, voi
 const loginUser = (0, catchAsync_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield user_service_1.UserService.loginUser(req.body);
     const { refreshToken } = result, others = __rest(result, ["refreshToken"]);
+    const responseWithToken = {
+        success: true,
+        statusCode: http_status_1.default.OK,
+        message: 'User signin successfully!',
+        token: others === null || others === void 0 ? void 0 : others.token, // Include the token at the top level
+    };
+    console.log('expected result pattern: ', responseWithToken);
     // set refresh token into cookie
     const cookieOptions = {
         secure: config_1.default.env === 'production',
         httpOnly: true,
     };
     res.cookie('refreshToken', refreshToken, cookieOptions);
-    (0, sendResponse_1.default)(res, {
-        success: true,
-        statusCode: http_status_1.default.OK,
-        message: 'User signin successfully!',
-        data: others,
-    });
+    (0, sendResponse_1.default)(res, responseWithToken);
 }));
 const getAllUsers = (0, catchAsync_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield user_service_1.UserService.getAllUsers();
