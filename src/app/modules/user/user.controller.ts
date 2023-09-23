@@ -7,6 +7,7 @@ import { UserService } from './user.service';
 
 const createUser = catchAsync(async (req: Request, res: Response) => {
   const result = await UserService.createUser(req.body);
+
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
@@ -19,18 +20,20 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
   const result = await UserService.loginUser(req.body);
   const { refreshToken, ...others } = result;
 
+  const responseWithToken = {
+    success: true,
+    statusCode: httpStatus.OK,
+    message: 'User signin successfully!',
+    token: others?.token, // Include the token at the top level
+  };
+  console.log('expected result pattern: ', responseWithToken);
   // set refresh token into cookie
   const cookieOptions = {
     secure: config.env === 'production',
     httpOnly: true,
   };
   res.cookie('refreshToken', refreshToken, cookieOptions);
-  sendResponse(res, {
-    success: true,
-    statusCode: httpStatus.OK,
-    message: 'User signin successfully!',
-    data: others,
-  });
+  sendResponse(res, responseWithToken);
 });
 
 const getAllUsers = catchAsync(async (req: Request, res: Response) => {
